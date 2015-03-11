@@ -12,7 +12,17 @@ body header{
 	margin:0 auto;
 }
 #top-nav{
+	width: 990px;
+	margin: 0 auto;
+}
+#free-shipping{
+	width: 50%;
+	margin: 0 auto;
+}
+#top-nav-ul{
+	width: 50%;
 	display: inline;
+	margin: 0 auto;
 }
 body header section nav{
 	width: 990px;
@@ -23,9 +33,10 @@ body header section nav{
 	text-align: center;	
 	display: inline;
 }
-body header section nav ul li{
+#top-nav-ul li{
 	width: 33.33%;
 	list-style: none;
+	display: inline;
 }
 body header section nav ul li a{
 	text-decoration: none;
