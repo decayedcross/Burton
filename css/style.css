@@ -12,7 +12,7 @@ body header{
 	float: left;
 	width: 100%;
 }
-#top-section article{
+#top-section #top-nav{
 	width: 980px;
 	text-align: center;	
 	display: inline;
@@ -22,33 +22,37 @@ body header{
 	width: 50%;
 	float: left;
 }
-#top-nav-ul{
+#top-nav ul{
 	width: 50%;
 	margin: 0 auto;
 	text-align: center;
 }
-#top-nav-ul li a{
+#top-nav ul li a{
 	color: #cccccc;
 	text-decoration: none;
 }
-#top-nav-ul li{
+#top-nav ul li{
 	list-style: none;
 	display: inline;
 	width: 33.33%;
 	margin: 0 auto;
 }
-#top-nav-ul li ul{
+#top-nav ul li ul{
 	position: absolute;
-	left: 333px;
+	left: 330px;
 	display: none;
 	color: #fff;
+	text-align: left;	
 }
-#top-nav-ul li:hover ul{
+#top-nav ul li:hover ul{
 	display: block;
 	background-color: #000;
 	position: left;
+	width: 250px;
 }
 #top-nav ul li:hover ul li{
 	display: block;
 	background-color: #000;
+	margin: 0 0 0 8px;
+	float: left;
 }
