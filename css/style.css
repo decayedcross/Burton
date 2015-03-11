@@ -1,0 +1,43 @@
+html,body{
+	padding: 0;
+	margin: 0;
+}
+body header{
+	width: 100%;
+	float: left;
+}
+#top-section{
+	background-color: #191919;
+	color: #cccccc;
+	margin:0 auto;
+}
+#top-nav{
+	display: inline;
+}
+body header section nav{
+	width: 990px;
+	margin: 0 auto;
+	float: left;
+	cursor: hand;
+	cursor: pointer;
+	text-align: center;	
+	display: inline;
+}
+body header section nav ul li{
+	width: 33.33%;
+	list-style: none;
+}
+body header section nav ul li a{
+	text-decoration: none;
+	display: inline;
+	text-align: center;
+}
+body header section nav ul li ul{
+	position: absolute;
+	display: none;
+	color: #fff;
+}
+body header section nav ul li:hover ul{
+	display: block;
+	background-color: #000;
+}
