@@ -9,18 +9,23 @@ body header{
 #top-section{
 	background-color: #191919;
 	color: #cccccc;
+	float: left;
+	width: 100%;
 }
-#top-nav{
+#top-section article{
 	width: 980px;
 	text-align: center;	
 	display: inline;
 	margin: 0 auto;
 }
-#free-shipping{
+#top-nav{
 	width: 50%;
+	float: left;
 }
 #top-nav-ul{
 	width: 50%;
+	margin: 0 auto;
+	text-align: center;
 }
 #top-nav-ul li a{
 	color: #cccccc;
@@ -31,11 +36,6 @@ body header{
 	display: inline;
 	width: 33.33%;
 	margin: 0 auto;
-}
-#top-nav-ul li a{
-	text-decoration: none;
-	display: inline;
-	text-align: center;
 }
 #top-nav-ul li ul{
 	position: absolute;
