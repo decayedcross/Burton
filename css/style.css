@@ -1,4 +1,4 @@
-html,body{
+*{
 	padding: 0;
 	margin: 0;
 }
@@ -9,46 +9,40 @@ body header{
 #top-section{
 	background-color: #191919;
 	color: #cccccc;
-	margin:0 auto;
 }
 #top-nav{
-	width: 990px;
+	width: 980px;
+	text-align: center;	
+	display: inline;
 	margin: 0 auto;
 }
 #free-shipping{
 	width: 50%;
-	margin: 0 auto;
 }
 #top-nav-ul{
 	width: 50%;
-	display: inline;
-	margin: 0 auto;
 }
-body header section nav{
-	width: 990px;
-	margin: 0 auto;
-	float: left;
-	cursor: hand;
-	cursor: pointer;
-	text-align: center;	
-	display: inline;
+#top-nav-ul li a{
+	color: #cccccc;
+	text-decoration: none;
 }
 #top-nav-ul li{
-	width: 33.33%;
 	list-style: none;
 	display: inline;
+	width: 33.33%;
+	margin: 0 auto;
 }
-body header section nav ul li a{
+#top-nav-ul li a{
 	text-decoration: none;
 	display: inline;
 	text-align: center;
 }
-body header section nav ul li ul{
+#top-nav-ul li ul{
 	position: absolute;
 	display: none;
 	color: #fff;
 }
-body header section nav ul li:hover ul{
+#top-nav-ul li:hover ul{
 	display: block;
 	background-color: #000;
 }
