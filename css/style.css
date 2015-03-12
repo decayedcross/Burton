@@ -214,25 +214,25 @@ main #bottom #wrap div + div{
 /***************/
 /*Social-Media*/
 /*************/
-#social-media{
+#twitter-photos{
 	width: 100%;
 	float: left;
 	background-color: #fff;
 }
-#social-media #wrap{
+#twitter-photos #wrap{
 	width: 990px;
 	margin: 0 auto;
 	padding: 0;
 }
-#social-media #wrap article p{
+#twitter-photos #wrap article p{
 	text-align: center;
 	margin: 0 auto;
 }
-#social-media #wrap div {
+#twitter-photos #wrap div {
 	width: 16; 
 	display: inline;
 }
-#social-media #wrap div article div img{
+#twitter-photos #wrap div article div img{
 	height: 150px;
 	width: 150px;
 	display: block;
