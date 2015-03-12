@@ -197,5 +197,38 @@ main #bottom #wrap div + div{
 #banner #banner-div article{
 	width: 50%;
 	float: left;
+}
+#banner #banner-div article h1{
+	font-size: 25px;
+	width: 33%;
+
+}
+#banner #banner-div article p{
+	width: 33%;
+	text-align: left;
+}
+#banner #banner-div article div{
+	display: block;
+	width: 33%;
+}
+/***************/
+/*Social-Media*/
+/*************/
+#social-media{
+	width: 100%;
+	float: left;
+}
+#social-media #wrap{
+	width: 990px;
+	margin: 0 auto;
+	padding: 0;
+}
+#social-media #wrap article p{
+	text-align: center;
 	margin: 0 auto;
 }
+#social-media #wrap article div{
+	width: 16.6666666667; 
+	float: left;
+	display: block;
+	margin: 0 auto;
