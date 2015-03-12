@@ -65,6 +65,7 @@ header #middle{
 header #middle #wrap{
 	width: 990px;
 	margin: 0 auto;
+	padding: 15px 0;
 }
 header #middle #wrap div{
 	width: 33.33%;
@@ -97,10 +98,12 @@ header #bottom #wrap {
 header #bottom #wrap nav{
 	float: left;
 	width: 100%;
+	padding: 15px 0;
 }
 header #bottom #wrap nav ul{
 	padding: 0;
 	margin: 0;
+	width: 100%;
 }
 header #bottom #wrap nav ul li{
 	width: 9.09090909091%;
@@ -113,6 +116,9 @@ header #bottom #wrap nav ul li a{
 	cursor: pointer;
 	cursor: hand;
 	color: #434135;	
+	font-weight: bold;
+	font-family: "Courier",serif;
+	font-size: 10px;
 }
 header #bottom #wrap nav ul li + li +li + li +li a{
 	color: #706F69;
@@ -127,6 +133,9 @@ main #top{
 main #top #wrap{
 	width: 990px;
 	margin: 0 auto;
+}
+main #top #wrap img{
+	padding: 35px 0 0 0 ;
 }
 /********************/
 /*Start Main Middle*/
