@@ -201,7 +201,6 @@ main #bottom #wrap div + div{
 #banner #banner-div article h1{
 	font-size: 25px;
 	width: 33%;
-
 }
 #banner #banner-div article p{
 	width: 33%;
@@ -281,24 +280,18 @@ footer #top #wrap{
 	width: 990px;
 	margin: 0 auto;
 }
-footer #wrap{
-
-}
-footer #top #wrap span{
-	background: url('http://akamai-ssl.burton.com/2015/images/global/global-header-footer-sprites.png');
-	background-position: no-repeat;
-	width: 111px;
+footer #top #wrap span{	
+	background-image: url('http://akamai-ssl.burton.com/2015/images/global/svg/global-header-footer-sprite-ss15.svg');
+	background-repeat: no-repeat;
 	height: 19px;
+	width: 111px;
+	background-position: 0 -70px;
 	display: block;
-	margin: 0 auto;
+	margin: 10px auto;
 }
 /****************/
 /*Footer Middle*/
 /**************/
-footer{
-	width: 100%;
-	float: left;
-}
 footer #middle #wrap{
 	width: 990px;
 	margin: 0 auto;
@@ -360,4 +353,25 @@ footer #middle #wrap article + article div input{
 	display: block;
 	margin: 0 auto;
 	float: left;
+}
+/****************/
+/*Footer Bottom*/
+/**************/
+footer #bottom #wrap{
+	width: 980px;
+	margin: 0 auto;
+}
+footer #bottom #wrap article{
+	width: 32%;
+	float: left;
+}
+footer #bottom #wrap article a .social-media{
+	background-image: url('http://akamai-ssl.burton.com/2015/images/global/svg/global-header-footer-sprite-ss15.svg');
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 35px;
+	display: inline-block;
+}
+footer #bottom #wrap article a span{
+	
 }
