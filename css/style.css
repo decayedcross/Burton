@@ -116,3 +116,63 @@ header #bottom #wrap nav ul li a{
 header #bottom #wrap nav ul li + li +li + li +li a{
 	color: #706F69;
 }
+/*****************/
+/*Start Main Top*/
+/***************/
+main #top{
+	width: 100%;
+	float:left;
+}
+main #top #wrap{
+	width: 990px;
+	margin: 0 auto;
+}
+/********************/
+/*Start Main Middle*/
+/******************/
+main #middle{
+	width: 100%;
+	float: left;
+}
+main #middle #wrap{
+	width: 990px;
+	margin: 0 auto;
+}
+main #middle #wrap article{
+	width: 31.91%;
+	text-align: center;
+	float: left;
+	border: solid;
+	border-width: 2px;	
+	margin: 15px 0 15px 0;
+}
+main #middle #wrap article + article{
+	margin: 15px 15px 15 15px; 
+}
+main #middle #wrap article + article + article{
+	margin: 15px 0 0 0; 
+}
+main #middle #wrap article p{
+	text-align: center;
+	color: #434135;
+}
+/********************/
+/*Start Main Bottom*/
+/******************/
+main #bottom{
+	width: 100%;
+	float: left;
+}
+main #bottom #wrap{
+	width: 990px;
+	margin: 0 auto;
+	padding: 0;
+}
+main #bottom #wrap div{
+	width: 48.89%;
+	float: left;
+	display: block;
+}
+main #bottom #wrap div + div{
+	margin: 0 0 0 22px;
+}
