@@ -32,7 +32,7 @@ header #top #wrap article{
 	float: left;
 }
 header #top #wrap nav ul{
-	padding: 7px 0 2px 0;
+	padding: 7px 0;
 	margin: 0 0 0 -30px;
 }
 header #top #wrap nav ul li{
@@ -51,7 +51,7 @@ header #top #wrap article p{
 	color: #D9D9D9;
 	text-align: right;
 	margin: 0;
-	padding: 7px 0 2px 0;
+	padding: 7px 0;
 	letter-spacing: 5px;
 }
 /**********************/
@@ -165,6 +165,10 @@ main #middle #wrap article + article + article{
 main #middle #wrap article p{
 	text-align: center;
 	color: #434135;
+	margin: 5px 0;
+	font-family: "Courier",serif;
+	font-weight: 600;
+	font-size: 15px;
 }
 /********************/
 /*Start Main Bottom*/
