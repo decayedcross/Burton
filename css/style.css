@@ -371,7 +371,24 @@ footer #bottom #wrap article a .social-media{
 	width: 20px;
 	height: 35px;
 	display: inline-block;
+	text-decoration: none;
 }
-footer #bottom #wrap article a span{
-	
+footer #bottom #wrap article a #facebook{
+	background-position: 0px -130px;
+}
+footer #bottom #wrap article a #twitter{
+	background-position: -38px -130px; 
+}
+footer #bottom #wrap article a #instagram{ 
+	background-position: -93px -130px;
+}
+footer #bottom #wrap article a #pintrest{
+	background-position: -139px -130px;
+}
+footer #bottom #wrap article a #youtube{
+	background-position: -174px -130px;
+	width: 45px;
+}
+footer #bottom #wrap article a #google{
+
 }
