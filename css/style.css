@@ -304,10 +304,21 @@ footer #middle #wrap{
 	margin: 0 auto;
 }
 footer #middle #wrap article{
-	width: 33%;
+	width: 46%;
 	float: left;
 	margin: 0 auto;
 	color: #EFEFEF;
+}
+footer #middle #wrap article + article{
+	width: 25%;
+	float; left;
+	margin: 0 auto;
+	padding-left: 10px;
+}
+footer #middle #wrap article + article h2{
+	float: left;
+	text-align: left;
+	width: 100%;
 }
 footer #middle #wrap article h2{
 	width: 50%;
@@ -320,10 +331,18 @@ footer #middle #wrap nav ul{
 	margin: 0;
 }
 footer #middle #wrap nav ul li{
-	width: 33%;
+	width: 30%;
 	text-align: left;
 	float: left;
 	display: inline;
+	border: solid 1px;
+	border-color: #efefef;	
+}
+footer #middle #wrap nav ul li + li{
+	margin: 0 5px 0 5px;
+}
+footer #middle #wrap nav ul li + li +li{
+	margin:0;
 }
 footer #middle #wrap nav ul li a{
 	text-decoration: none;
