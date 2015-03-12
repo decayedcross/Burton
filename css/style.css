@@ -180,19 +180,24 @@ main #bottom{
 main #bottom #wrap{
 	width: 990px;
 	margin: 0 auto;
-	padding: 0;
 }
 main #bottom #wrap div{
 	width: 48.89%;
 	float: left;
 	display: block;
+	padding: 0 0 25px 0;
 }
 main #bottom #wrap div + div{
 	margin: 0 0 0 22px;
 }
-/*********/
-/*Banner*/
-/*******/
+main #bottom #wrap div img{
+	border: solid;
+	border-color: #EFBB3E;
+	border-width: 5px;
+}
+/***************/
+/*Start Banner*/
+/*************/
 #banner #banner-div{
 	float: left;
 	background-image: url('http://akamai-ssl.burton.com/2015/content/13things/post-036/design/13Things-Post36_Banner_Desktop_2.jpg');
@@ -201,6 +206,7 @@ main #bottom #wrap div + div{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center 0px;
+
 }
 #banner #banner-div div{
 	width: 50%;
@@ -224,9 +230,9 @@ main #bottom #wrap div + div{
 	display: block;
 	width: 33%;
 }
-/***************/
-/*Social-Media*/
-/*************/
+/*********************/
+/*Start Social-Media*/
+/*******************/
 #twitter-photos{
 	width: 100%;
 	float: left;
@@ -253,9 +259,9 @@ main #bottom #wrap div + div{
 	margin: 0 auto;
 	padding: 5px;
 }
-/********/
-/*Email*/
-/******/
+/**************/
+/*Start Email*/
+/************/
 #enter-email{
 	width: 100%;
 	float: left;
@@ -282,9 +288,9 @@ main #bottom #wrap div + div{
 	display: block;
 	margin: 0 auto;
 }
-/*************/
-/*Footer Top*/
-/***********/
+/*******************/
+/*Start Footer Top*/
+/*****************/
 footer{
 	width: 100%;
 	float: left;
@@ -303,9 +309,9 @@ footer #top #wrap span{
 	display: block;
 	margin: 10px auto;
 }
-/****************/
-/*Footer Middle*/
-/**************/
+/**********************/
+/*Start Footer Middle*/
+/********************/
 footer #middle #wrap{
 	width: 990px;
 	margin: 0 auto;
@@ -368,9 +374,9 @@ footer #middle #wrap article + article div input{
 	margin: 0 auto;
 	float: left;
 }
-/****************/
-/*Footer Bottom*/
-/**************/
+/**********************/
+/*Start Footer Bottom*/
+/********************/
 footer #bottom #wrap{
 	width: 980px;
 	margin: 0 auto;
