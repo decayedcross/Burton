@@ -240,3 +240,32 @@ main #bottom #wrap div + div{
 	margin: 0 auto;
 	padding: 5px;
 }
+/********/
+/*Email*/
+/******/
+#enter-email{
+	width: 100%;
+	float: left;
+}
+#enter-email #wrap{
+	width: 990px;
+	margin: 0 auto;
+	padding: 0;
+}
+#enter-email #wrap div{
+	width: 30%;
+	float: left;
+	text-align: right;
+}
+#enter-emaiil #wrap div img{
+	display: block;
+	text-align: right;
+}
+#enter-email #wrap article{
+	width: 70%;
+	float: left;	
+}
+#enter-email #wrap article div input{
+	display: block;
+	margin: 0 auto;
+}
