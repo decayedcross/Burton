@@ -269,3 +269,33 @@ main #bottom #wrap div + div{
 	display: block;
 	margin: 0 auto;
 }
+/*************/
+/*Footer Top*/
+/***********/
+footer{
+	width: 100%;
+	float: left;
+	background-color: #424035;
+}
+footer #top #wrap{
+	width: 990px;
+	margin: 0 auto;
+}
+footer #wrap{
+
+}
+footer #top #wrap span{
+	background: url('http://akamai-ssl.burton.com/2015/images/global/global-header-footer-sprites.png');
+	background-position: no-repeat;
+	width: 111px;
+	height: 19px;
+	display: block;
+	margin: 0 auto;
+}
+/****************/
+/*Footer Middle*/
+/**************/
+footer #middle #wrap{
+	width: 990px;
+	margin: 0 auto;
+}
