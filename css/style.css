@@ -162,18 +162,24 @@ main #middle #wrap article + article{
 main #middle #wrap article + article + article{
 	margin: 15px 0 0 0; 
 }
-main #middle #wrap article p{
+main #middle #wrap article a{
+	text-decoration: none;
+}
+main #middle #wrap article a p{
 	text-align: center;
 	color: #434135;
 	margin: 5px 0;
 	font-family: "Courier",serif;
 	font-weight: 600;
 	font-size: 15px;
+	text-decoration: none;
+	margin: 0 auto 0 auto;
 }
-main #middle #wrap article:hover p{
+main #middle #wrap article a:hover p{
 	background-color: #EFBB3E;
-	background-size: cover;
+
 }
+
 /********************/
 /*Start Main Bottom*/
 /******************/
