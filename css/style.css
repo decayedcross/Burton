@@ -349,7 +349,7 @@ footer #top #wrap span{
 	width: 111px;
 	background-position: 0 -70px;
 	display: block;
-	margin: 10px auto;	
+	margin: 15px auto 0 auto;	
 }
 /**********************/
 /*Start Footer Middle*/
@@ -430,20 +430,26 @@ footer #bottom #wrap article{
 	width: 20%;
 	float: left;
 }
+footer #bottom #wrap article a{
+	text-decoration: none;	
+}
 footer #bottom #wrap article + article{
-	width: 50%;
+	width: 51%;
 	float: left;
 }
 footer #bottom #wrap article + article + article{
-	width: 25%;
+	width: 23%;
 	float: left;
-	margin: 0 15px 0 0;
+	margin-left: 20px;
 }
-footer #bottom #wrap article p{
-	display: inline;
+footer #bottom #wrap article + article p{
+	color: #fff;
+	font-family: "Courier",serif;
+	font-size: 12px;
 }
-footer #bottom #wrap article a{
+footer #bottom #wrap article + article p a{
 	text-decoration: none;
+	color: #fff;
 }
 footer #bottom #wrap article a .social-media{
 	background-image: url('http://akamai-ssl.burton.com/2015/images/global/svg/global-header-footer-sprite-ss15.svg');
@@ -451,6 +457,7 @@ footer #bottom #wrap article a .social-media{
 	width: 20px;
 	height: 35px;
 	display: inline-block;
+	padding-right: 5px;
 }
 footer #bottom #wrap article a #facebook{
 	background-position: 0px -130px;
