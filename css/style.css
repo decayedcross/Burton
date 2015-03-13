@@ -239,8 +239,11 @@ main #bottom #wrap div img{
 }
 #twitter-photos #wrap{
 	width: 990px;
-	margin: 0 auto;
-	padding: 15px 0;
+	margin: 15px auto;
+}
+#twitter-photos #wrap article{
+	width: 100%;
+	float: left;
 }
 #twitter-photos #wrap article p{
 	text-align: center;
@@ -262,26 +265,29 @@ main #bottom #wrap div img{
 	width: 35px;	
 }
 #twitter-photos #wrap div{
-	width: 16%; 
-	display: inline;		
+	width: 100%;
+	float: left;
 }
-#twitter-photds #wrap div article{
+#twitter-photos #wrap div article{
+	width: 16.6%; 
+	display: inline;
+}
 
-}
-#twitter-photos #wrap div article div{
+#twitter-photos #wrap div article figure{
 	background: url('//akamai-ssl.burton.com/2015/images/global/insta_bg.gif');
 	background-repeat: no-repeat;
-	background-size: 1px 1px;
+	background-position: 1px 1px;
+	display: block;
 	height: 150px;
 	width: 150px;
+	margin: 0 auto 0 auto;
 }
-#twitter-photos #wrap div article div img{
-	height: 144px;
-	width: 144px;
+#twitter-photos #wrap div article figure img{
+	max-height: 95%;
+	max-width: 95%;
 	display: block;
-	float: left;
-	margin: 0 auto;
-	padding: 5px;
+	margin: 0 auto 0 auto;
+	padding: 5px 0 0 0;
 }
 
 /**************/
@@ -290,11 +296,12 @@ main #bottom #wrap div img{
 #enter-email{
 	width: 100%;
 	float: left;
+	margin-top: 10px;
 }
 #enter-email #wrap{
 	width: 990px;
 	margin: 0 auto;
-	padding: 0;
+	padding: 50px 0 0 0;
 }
 #enter-email #wrap div{
 	width: 30%;
