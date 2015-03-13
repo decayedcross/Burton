@@ -340,6 +340,7 @@ footer{
 footer #top #wrap{
 	width: 990px;
 	margin: 0 auto;
+	padding: 15px 0 15px 0;	
 }
 footer #top #wrap span{	
 	background-image: url('http://akamai-ssl.burton.com/2015/images/global/svg/global-header-footer-sprite-ss15.svg');
@@ -348,7 +349,7 @@ footer #top #wrap span{
 	width: 111px;
 	background-position: 0 -70px;
 	display: block;
-	margin: 10px auto;
+	margin: 10px auto;	
 }
 /**********************/
 /*Start Footer Middle*/
@@ -356,17 +357,19 @@ footer #top #wrap span{
 footer #middle #wrap{
 	width: 990px;
 	margin: 0 auto;
+	font-family: "Courier",serif;
 }
 footer #middle #wrap article{
 	width: 46%;
 	float: left;
 	margin: 0 auto;
 	color: #EFEFEF;
+		padding: 15px 0 30px 0;
 }
 footer #middle #wrap article + article{
-	width: 25%;
+	width: 24%;
 	float; left;
-	margin: 0 auto;
+	margin: 0 15px 0 0;
 	padding-left: 10px;
 }
 footer #middle #wrap article + article h2{
@@ -379,6 +382,7 @@ footer #middle #wrap article h2{
 	float: left;
 	text-align: left;
 	margin: 0 auto;
+	padding: 15px 0 15px 0;
 }
 footer #middle #wrap nav ul{
 	padding: 0;
@@ -386,14 +390,14 @@ footer #middle #wrap nav ul{
 }
 footer #middle #wrap nav ul li{
 	width: 30%;
-	text-align: left;
+	text-align: center;
 	float: left;
 	display: inline;
 	border: solid 1px;
-	border-color: #efefef;	
+	border-color: #efefef;		
 }
 footer #middle #wrap nav ul li + li{
-	margin: 0 5px 0 5px;
+	margin: 0 10px 0 10px;
 }
 footer #middle #wrap nav ul li + li +li{
 	margin:0;
@@ -431,8 +435,9 @@ footer #bottom #wrap article + article{
 	float: left;
 }
 footer #bottom #wrap article + article + article{
-	width: 30%;
+	width: 25%;
 	float: left;
+	margin: 0 15px 0 0;
 }
 footer #bottom #wrap article p{
 	display: inline;
