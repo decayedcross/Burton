@@ -205,8 +205,7 @@ main #bottom #wrap div img{
 	height: 420px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center 0px;
-
+	background-position: 0 -150px;
 }
 #banner #banner-div div{
 	width: 50%;
@@ -241,24 +240,47 @@ main #bottom #wrap div img{
 #twitter-photos #wrap{
 	width: 990px;
 	margin: 0 auto;
-	padding: 0;
+	padding: 15px 0;
 }
 #twitter-photos #wrap article p{
 	text-align: center;
-	margin: 0 auto;
+	margin: 5 auto;
+	padding: 0 0 10px 0;
+}
+#twitter-photos #wrap article p a{
+	text-decoration: none;
+	font-size:15px;
+	font-family: sans-serif;
+	color: #000;
+}
+#twitter-photos #wrap article p a span{
+	background-image: url('http://akamai-ssl.burton.com/2015/images/global/svg/global-header-footer-sprite-ss15.svg');
+	background-position: -93px -130px; 
+	background-repeat: no-repeat;
+	display:inline-block;
+	height: 20px;
+	width: 35px;	
 }
 #twitter-photos #wrap div {
-	width: 16; 
-	display: inline;
+	width: 16%; 
+	display: inline;		
+}
+#twitter-photos #wrap div article div{
+	background: url('http://akamai-ssl.burton.com/2015/images/global/insta_bg.gif');
+	background-repeat: no-repeat;
+	background-size: 3px 3px;
+	height: 150px;
+	width:  150px;
 }
 #twitter-photos #wrap div article div img{
-	height: 150px;
-	width: 150px;
+	height: 144px;
+	width: 144px;
 	display: block;
 	float: left;
 	margin: 0 auto;
 	padding: 5px;
 }
+
 /**************/
 /*Start Email*/
 /************/
@@ -410,7 +432,8 @@ footer #bottom #wrap article a #facebook{
 	background-position: 0px -130px;
 }
 footer #bottom #wrap article a #twitter{
-	background-position: -38px -130px; 
+	background-position: -38px -130px;
+	width: 23px; 
 }
 footer #bottom #wrap article a #instagram{ 
 	background-position: -93px -130px;
