@@ -82,6 +82,8 @@ header #middle #wrap div + div span{
 header #middle #wrap div + div + div input{
 	display: block;
 	margin: 0 auto;
+	padding:1px;
+	width: 180px;
 }
 /**********************/
 /*Start Header Bottom*/
@@ -240,6 +242,9 @@ main #bottom #wrap div img{
 #banner #banner-div article div{
 	display: block;
 	width: 33%;
+}
+#banner #banner-div article div button{
+
 }
 /*********************/
 /*Start Social-Media*/
