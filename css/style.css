@@ -267,6 +267,7 @@ main #bottom #wrap div img{
 #twitter-photos #wrap div{
 	width: 100%;
 	float: left;
+	margin: 0 0 35px 0;
 }
 #twitter-photos #wrap div article{
 	width: 16.6%; 
@@ -289,7 +290,6 @@ main #bottom #wrap div img{
 	margin: 0 auto 0 auto;
 	padding: 5px 0 0 0;
 }
-
 /**************/
 /*Start Email*/
 /************/
@@ -304,7 +304,7 @@ main #bottom #wrap div img{
 	padding: 50px 0 0 0;
 }
 #enter-email #wrap div{
-	width: 30%;
+	width: 28%;
 	float: left;
 	text-align: right;
 }
@@ -314,11 +314,20 @@ main #bottom #wrap div img{
 }
 #enter-email #wrap article{
 	width: 70%;
-	float: left;	
+	float: left;
+	margin-left: 10px;
+}
+#enter-email #wrap article h2{
+	font-family: "Courier",serif;
+}
+#enter-email #wrap article div{
+	margin: 0 0 0 150px;
+
 }
 #enter-email #wrap article div input{
 	display: block;
-	margin: 0 auto;
+	margin: 20px 0 0 0;
+
 }
 /*******************/
 /*Start Footer Top*/
