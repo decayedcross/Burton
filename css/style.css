@@ -170,6 +170,10 @@ main #middle #wrap article p{
 	font-weight: 600;
 	font-size: 15px;
 }
+main #middle #wrap article:hover p{
+	background-color: #EFBB3E;
+	background-size: cover;
+}
 /********************/
 /*Start Main Bottom*/
 /******************/
