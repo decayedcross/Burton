@@ -261,16 +261,19 @@ main #bottom #wrap div img{
 	height: 20px;
 	width: 35px;	
 }
-#twitter-photos #wrap div {
+#twitter-photos #wrap div{
 	width: 16%; 
 	display: inline;		
 }
+#twitter-photds #wrap div article{
+
+}
 #twitter-photos #wrap div article div{
-	background: url('http://akamai-ssl.burton.com/2015/images/global/insta_bg.gif');
+	background: url('//akamai-ssl.burton.com/2015/images/global/insta_bg.gif');
 	background-repeat: no-repeat;
-	background-size: 3px 3px;
+	background-size: 1px 1px;
 	height: 150px;
-	width:  150px;
+	width: 150px;
 }
 #twitter-photos #wrap div article div img{
 	height: 144px;
