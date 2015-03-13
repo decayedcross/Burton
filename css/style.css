@@ -181,7 +181,6 @@ main #middle #wrap article a p{
 }
 main #middle #wrap article a:hover p{
 	background-color: #EFBB3E;
-
 }
 
 /********************/
@@ -244,7 +243,16 @@ main #bottom #wrap div img{
 	width: 33%;
 }
 #banner #banner-div article div button{
-
+  color: #000;
+  border: solid ;
+  border-color: #EFBB3E; 
+  border-size: 3px;
+  background-color: #fff;
+  padding: 2px;
+}
+#banner #banner-div article div:hover button{
+	background-color: #000;
+	color: #fff;
 }
 /*********************/
 /*Start Social-Media*/
